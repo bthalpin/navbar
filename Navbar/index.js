@@ -30,7 +30,7 @@ function App() {
                 </div>
 
                 {/* Navigation links in dropdown menu on small screens */}
-                <div className={`navDropDown ${open?"show":"hide"}`}>
+                <div className={`navDropDown ${open?"showNav":"hideNav"}`}>
                     {navLinks.map((link,index)=>{
                         return (
                             <div key={index} className="navLink">{link}</div>

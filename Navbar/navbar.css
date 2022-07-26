@@ -27,6 +27,7 @@
     width:fit-content;
     height:2rem;
     margin-left:auto;
+    cursor: pointer;
 }
 .menuImg{
     width:2rem;
@@ -42,7 +43,7 @@
 }
 
 /* toggles dropdown */
-.hide{
+.hideNav{
     display:none;
 }
 
